@@ -32,8 +32,9 @@ export default function About() {
           >
             I love music, reading books and playing chess. I am
             currently pursuing BTech degree in Electronics and Telecommunication
-             Engineering. I am {getDate()}{" "}
-            years old.I love exploring new technologies.
+             Engineering. I am 21
+             {/* {getDate()}{" "} */}
+             years old. I love exploring new technologies.
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
@@ -42,6 +43,12 @@ export default function About() {
             I am currently looking for jobs. I'm Web developer.
             I worked on MERN Stack, Java, CPP and many more. I am
             also looking to collaborate in open-source projects.
+          </p>
+          <p
+            className="text-justify leading-7 text-slate-900"
+            data-aos={"fade-right"}
+          >
+            Apart from my skills and academics, I'm very punctual and dedicated to my passion and work.
           </p>
         </div>
 

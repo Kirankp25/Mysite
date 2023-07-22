@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <div id="resume" className="min-h-screen flex-col text-center">
       <div className="text-5xl font-bold py-8" data-aos={"slide-down"}>
-        Resume
+        Academics
       </div>
       <div className="grid grid-cols-2 gap-7 mt-7">
         <ol class="relative border-l  border-gray-700 ml-9 mb-6">
@@ -25,11 +25,17 @@ export default function Resume() {
                 ></path>
               </svg>
             </span>
-            <h3 class="flex items-center mb-1 text-lg font-semibold  text-white ml-28">
-              AWS Cloud Practioner
+            {/* <h3 class="flex items-center mb-1 text-lg font-semibold  text-white ml-28">
+              SSC
+            </h3> */}
+             <h3 class="mb-1 text-lg font-semibold text-white">
+              SSC
             </h3>
+            <h4 class="block mb-2 text-sm font-normal leading-none text-gray-500">
+              From Jawahar Navodaya Vidyalaya, Jalgaon.
+            </h4>
             <time class="block pt-1 pb-3  text-sm font-normal leading-none  text-gray-500">
-              Completed on July 7th, 2023
+              Completed on March 25th, 2018
             </time>
             {/* <p class="mb-4 text-base font-normal  text-gray-400">
               Provides overall understanding of cloud computing concepts,
@@ -55,7 +61,7 @@ export default function Resume() {
                   clip-rule="evenodd"
                 ></path>
               </svg>{" "}
-              Download Certificate
+             A+ Grade
             </a>
           </li>
           <li class="mb-10" data-aos="zoom-out" data-aos-delay="700">
@@ -75,10 +81,13 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              BackEnd Development and Apis
+              HSC
             </h3>
+            <h4 class="block mb-2 text-sm font-normal leading-none text-gray-500">
+              From Jawahar Navodaya Vidyalaya, Jalgaon.
+            </h4>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
-              Completed on May 28th, 2022
+              Completed on May 28th, 2020
             </time>
             {/* <p class="text-base font-normal text-gray-400">
               Learned how to write back end apps with Node.js and npm. I also
@@ -103,7 +112,7 @@ export default function Resume() {
                   clip-rule="evenodd"
                 ></path>
               </svg>{" "}
-              Download Certificate
+              A+ Grade
             </a>
           </li>
           <li data-aos="zoom-in" data-aos-offset={"-15"} data-aos-delay="1300">
@@ -123,10 +132,13 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              Frontend Development Libraries
+              B.Tech in Electronics and Telecommunication Engineering
             </h3>
+            <h4 class="block mb-2 text-sm font-normal leading-none text-gray-500">
+              From Jspm's Rajarshi Shahu College of Engineering, Pune.
+            </h4>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
-              Completed on December 9, 2022
+              Expected on July 25th, 2024
             </time>
             {/* <p class="text-base font-normal text-gray-400">
               Learns how to style your site quickly with Bootstrap. I also learn
@@ -153,7 +165,7 @@ export default function Resume() {
                   clip-rule="evenodd"
                 ></path>
               </svg>{" "}
-              Download Certificate
+              9.00/10.00
             </a>
           </li>
         </ol>
@@ -175,7 +187,7 @@ export default function Resume() {
             download={"Kiran_Resume_Off"}
             class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
           >
-            Download CV <DownloadIcon />
+           Resume <DownloadIcon />
           </a>
         </div>
       </div>

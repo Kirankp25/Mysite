@@ -1,4 +1,6 @@
 import "../App.css";
+import DownloadIcon from "@mui/icons-material/Download";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -50,7 +52,7 @@ export default function Slidebar() {
           data-aos="slide-right"
           data-aos-delay="1000"
         >
-          <a href="#resume">Resume</a>
+          <a href="#resume">Academics</a>
         </p>
         <p
           onClick={() => setSelect(3)}
@@ -122,7 +124,20 @@ export default function Slidebar() {
         >
           <FacebookIcon className="cursor-pointer hover:scale-105" />
         </div>
+       
       </div>
+      <div className="flex-none  bg-black h-screen min-w-[25%] fixed ">
+      <div className="nav flex  text-white text-lg mt-6 flex-col align-middle justify-center text-center w-full gap-3 overflow-hidden">
+      <a
+            href={require("../assets/files/Kiran_Resume_Off.pdf")}
+            download={"Kiran_Resume_Off"}
+            class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
+          >
+           Resume <DownloadIcon />
+          </a>
+          </div>
+          </div>
+     
     </div>
   );
 }

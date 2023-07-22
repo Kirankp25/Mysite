@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import "../../App.css";
+import { colors } from "@mui/material";
 
 export default function Home() {
   const stringSplitter = (string) => {
@@ -13,10 +14,10 @@ export default function Home() {
         className="head text-5xl font-semibold tracking-[3px] pb-2 "
         data-aos="zoom-in-up"
       >
-        Welcome
+        Hey ✋, Welcome to my Portfolio
       </h1>
       <div
-        className="text-4xl text-yellow-500 pb-16"
+        className="text-4xl text-white-500 pb-16"
         data-aos-delay="700"
         data-aos="zoom-in"
       >
@@ -27,7 +28,7 @@ export default function Home() {
               "✋I'm Kiran Patil",
               "I'm an enthusiast Full-Stack 🌐developer",
               "Open-Source, Hackathon Lover",
-              "You can 📲 me through discord or ✉️",
+              
             ],
             delay: 150,
             pauseFor: 1500,

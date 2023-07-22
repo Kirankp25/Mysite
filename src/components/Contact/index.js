@@ -4,6 +4,8 @@ import PersonIcon from "@mui/icons-material/Person";
 import FileDownloadDoneIcon from "@mui/icons-material/FileDownloadDone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
+
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import CopyrightIcon from "@mui/icons-material/Copyright";
@@ -215,6 +217,17 @@ export default function Contact() {
               >
                 {" "}
                 <LinkedInIcon className="cursor-pointer hover:scale-105" />
+              </div>
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/kirankp25/",
+                    "_blank"
+                  )
+                }
+              >
+                {" "}
+                <TwitterIcon className="cursor-pointer hover:scale-105" />
               </div>
               <div
                 onClick={() =>
