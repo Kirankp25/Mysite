@@ -82,14 +82,14 @@ export default function Slidebar() {
       >
         <div
           onClick={() =>
-            window.open("https://www.linkedin.com/in/kirankp25/", "_blank")
+            window.open("https://github.com/Kirankp25", "_blank")
           }
         >
           <GitHubIcon className="cursor-pointer hover:scale-105" />
         </div>
         <div
           onClick={() =>
-            window.open("https://www.linkedin.com/in/kirankp25/", "_blank")
+            window.open("https://www.instagram.com/kirankp25", "_blank")
           }
         >
           {" "}
@@ -109,7 +109,7 @@ export default function Slidebar() {
         <div
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/kirankp25/",
+              "https://twitter.com/Kiran_Patil25",
               "_blank"
             )
           }
@@ -119,7 +119,7 @@ export default function Slidebar() {
         </div>
         <div
           onClick={() =>
-            window.open("https://www.linkedin.com/in/kirankp25/", "_blank")
+            window.open("https://www.facebook.com/profile.php?id=100022518962403", "_blank")
           }
         >
           <FacebookIcon className="cursor-pointer hover:scale-105" />

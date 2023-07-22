@@ -199,7 +199,7 @@ export default function Contact() {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/kirankp25/",
+                    "https://www.instagram.com/kirankp25",
                     "_blank"
                   )
                 }
@@ -232,7 +232,7 @@ export default function Contact() {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/kirankp25/",
+                    "https://www.facebook.com/profile.php?id=100022518962403",
                     "_blank"
                   )
                 }
