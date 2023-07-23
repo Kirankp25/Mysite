@@ -21,12 +21,12 @@ export const projects = [
       },
     ],
     img: "data:image/jpeg;base64,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",
-    link: "https://mysite-nu-nine.vercel.app/",
+    link: "https://kiran-patil-portfolio.vercel.app/",
     code: "https://github.com/Kirankp25/Mysite",
   },
   {
     title: "TODO Web-App",
-    desc: "This is a MyTODO site made for daily-use. Feel free to contribute to this project. ", 
+    desc: "This is a MyTODO site made for daily use. Feel free to contribute to this project. ", 
     tags: [
       {
         name: "HTML",
@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     title: "NEWS-API",
-    desc: "This repository contains all the top news headlines from fetching data from news-api",
+    desc: "This repository contains all the top news headlines from fetching data from news-API",
     tags: [
       {
         name: "Bootstrap",
@@ -66,8 +66,8 @@ export const projects = [
         color: "green-600",
       },
       {
-        name:"NodeJS",
-        color:"yellow-600"
+        name: "NodeJS",
+        color: "yellow-600"
       }
     ],
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwTIgH1CWbmK_LAPlHpFajPhD0c-DKpJzcKA&usqp=CAU",
@@ -76,7 +76,7 @@ export const projects = [
   },
   {
     title: "Hotel-Booking-Site",
-    desc: "This is a Hotel Management website project made for the college project. This project is under the theme Social services. This was our first software project. Code present in hotel.html file is for testing only, change it accordingly.If you want to do some changes feel free to contribute in our project. ", 
+    desc: "This is a Hotel Management website project made for the college project. This project is under the theme of Social services. This was our first software project. Code present in hotel.html file is for testing only, change it accordingly.If you want to do some changes feel free to contribute in our project. ", 
     tags: [
       {
         name: "HTML",
@@ -101,14 +101,14 @@ export const projects = [
   },
   {
     title: "Weather Web-App",
-    desc: "This repository contain the project : Weather of particular location in the world by using OpenWeatherApi, Which display live data of weather Report..",
+    desc: "This repository contains the project: Weather of particular location in the world by using OpenWeatherApi, Which display live data of weather Report..",
     tags: [
       {
         name: "React",
         color: "red-600",
       },
       {
-        name: "Open-Api",
+        name: "Open-API",
         color: "green-600",
       },
       {
@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     title: "TripTogether",
-    desc: "This repositoy contains our Mumbaihacks hackathone project which is one travelling platform for Mumbaikars to make her journey safe and sound with minimum expense.",
+    desc: "This repository contains our Mumbaihacks hackathons project which is one traveling platform for Mumbaikars to make their journey safe and sound with minimum expense.",
     tags: [
       {
         name: "ReactJs",
@@ -151,7 +151,7 @@ export const projects = [
   },
   {
     title: "WEBD",
-    desc: "This repository contains information about all the users which are stored in REST-API. It is simple API web-app.",
+    desc: "This repository contains information about all the users which are stored in REST-API. It is simple API web app.",
     tags: [
       {
         name: "ReactJs",
@@ -172,7 +172,7 @@ export const projects = [
   },
   {
     title: "TinDog Web-App",
-    desc: "An app made with simple Html,CSS and Javascript to help people to sell and buy their pets dogs without intermediate. It also gives suggestions.",
+    desc: "An app made with simple Html, CSS and Javascript to help people to sell and buy their pets dogs without intermediate. It also gives suggestions.",
     tags: [
      
       {
